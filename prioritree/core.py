@@ -4,11 +4,20 @@
 functions(interface.py), computation helper functions (helpers.py),
 and the instantiation of goal,objective, and task objects and
 members."""
+import objects
+import interface
+import helpers
 
 ## object arrays are initialized as empty objects with id numbers
 ## they have one of each member object, also empty.
 ## Initial values are either `none` or correspond to default values.
 #TODO: WRITE INITIALIZER FOR GOALS IN `HELPERS.PY`
+
+goal_array = interface.get_goals()
+for goal in goal_array:
+    objective_array = interface.get_objectives()
+    for objective in objective_array:
+        tasks_array = interface.get_tasks()
 
 
 ## the interface with the user accepts input in a certain sequence

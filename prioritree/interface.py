@@ -8,3 +8,13 @@ Date Written:   2019.01.31
 Date Appended:  2019.01.31
 Version:
 """
+def get_goals():
+    """"""
+
+
+def get_objectives():
+    """"""
+
+def get_tasks():
+    """"""
+

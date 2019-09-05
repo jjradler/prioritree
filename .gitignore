@@ -1,0 +1,15 @@
+# IDE Files
+*idea*
+
+# Compiled Binaries
+*.exe
+*.out
+*.pyc
+
+# VS IDE files
+*/vs/*
+
+# MacOS Filesystem
+*.DS_Store
+
+

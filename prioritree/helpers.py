@@ -28,6 +28,8 @@ def get_g_num(goals_list):
     return g_card
 
 def recall_gs():
+    ## TODO: INSTEAD OF DOING THIS USING STATE-SAVING FILES, IT MAKES A LOT MORE
+    ## SENSE TO USE AN SQLITE DATABASE TO PRESERVE THE STATE OF THE TASK TREE
     """Retrieves the list of goal objects from their IDs in a *.list file
         then will assign their attributes from a corresponding *.attr file.
 

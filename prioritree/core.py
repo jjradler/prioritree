@@ -17,7 +17,7 @@ goal_array = interface.get_goals()
 for goal in goal_array:
     objective_array = interface.get_objectives()
     for objective in objective_array:
-        tasks_array = interface.get_tasks()
+        tasks_list = interface.get_tasks()
 
 
 ## the interface with the user accepts input in a certain sequence

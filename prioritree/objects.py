@@ -65,7 +65,6 @@ class Vertex():
         self._weighted_priority = 1  ## default
         self._parent_id = None      ## default for a goal object
 
-
     def get_id(self, name, number):
         """
         Gets id for the goal as a combination of the name as well as the number
@@ -90,6 +89,7 @@ class Vertex():
         """
         Prompt the user to enter the due date for this object
         """
+        print("get_due_date under construction!")
 
     def get_due_time(self):
         """
